@@ -14,8 +14,20 @@ theme:
     - content.action.edit
     - content.action.view
   palette:
-    scheme: slate
-    primary: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark theme
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light theme
   font:
     text: Open Sans
     code: JetBrains Mono
