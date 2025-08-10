@@ -1,0 +1,50 @@
+# Project Information
+site_name: Entry Point Wiki 
+site_url: https://entrypointdailies.github.io/wiki/
+
+# Repository
+repo_name: EntryPointDailies/wiki
+repo_url: https://github.com/EntryPointDailies/wiki
+edit_uri: edit/wiki/docs/
+
+# Configuration
+theme:
+  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+  palette:
+    scheme: slate
+    primary: indigo
+  font:
+    text: Open Sans
+    code: JetBrains Mono
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+    
+
+
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Contribute: contribute/index.md
+  - Missions:
+    - The Deposit: missions/deposit.md
+  - Cheatsheets:
+    - The Blacksite: quickref/blacksite.md
+    - The Financier: quickref/financier.md
+    - The Deposit: quickref/deposit.md
+    - The Lakehouse: quickref/lakehouse.md
+    - The Withdrawal: quickref/withdrawal.md
+    - The Scientist: quickref/scientist.md
+    - The SCRS: quickref/scrs.md
+    - Black Dusk: quickref/dusk.md
+    - Night Heists:
+      - The Auction: quickref/auction.md
+      - The Gala: quickref/gala.md
+      - The Cache: quickref/cache.md
+    - Freelance Heists:
+      - The Setup: quickref/setup.md
+      - The Lockup: quickref/lockup.md
+      - The Score: quickref/score.md
