@@ -60,3 +60,4 @@ nav:
       - The Setup: quickref/setup.md
       - The Lockup: quickref/lockup.md
       - The Score: quickref/score.md
+  - Troubleshoot: troubleshoot.md
